@@ -1,11 +1,11 @@
-#Try InSpec
+# Try InSpec
 
 InSpec is an open-source testing framework by Chef that enables you to specify compliance, security, and other policy requirements.
 
 Built on the Ruby programming language, InSpec tests are meant to be human-readable.
 
 
-## Steps to use Inspec, in this module you'll scan Docker containers running Linux to get a sense of how InSpec works. The concepts apply equally to Windows.
+### Steps to use Inspec, in this module you'll scan Docker containers running Linux to get a sense of how InSpec works. The concepts apply equally to Windows.
 
 ### 1. Install Docker and Docker Compose
 
@@ -26,9 +26,9 @@ mkdir ~/learn-inspec;cd ~/learn-inspec
 
 Next, get the Docker Compose file. Run the command that matches your system to download a file named docker-compose.yml.
 
-
+```
 wget https://raw.githubusercontent.com/learn-chef/inspec/master/docker-compose.yml
-
+```
 
 Next, run the following docker-compose command to retrieve the latest workstation images.
 ```
